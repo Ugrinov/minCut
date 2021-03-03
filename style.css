@@ -1,0 +1,23 @@
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+form {
+    width: 450px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #ccccfc;
+    border-radius: 10px;
+}
+input {
+    width: 95%;
+    margin: 0 0 10px 0;
+    padding: 2px 5px;
+  
+    vertical-align: middle;
+  
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    height: 24px;
+}
+
