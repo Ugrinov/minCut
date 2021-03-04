@@ -8,8 +8,30 @@
     <body>
         <header>
             <form>
-            <label for="numVertices">Количество вершин</label>
-            <input class="numVertices" id="numVertices" type="text">
+                <fieldset>
+                    <legend>Входные данные</legend>
+                    <div class="half-width">
+                        <label for="numVertices">Количество вершин</label>
+                        <input class="numVertices" id="numVertices" type="text">
+                    </div>
+                    <div class="half-width">
+                        <label for="numEdges">Количество рёбер</label>
+                        <input class="numEdges" id="numEdges" type="text">
+                    </div>
+                
+                    <div class="half-width">
+                        <label for="source">Исток</label>
+                        <input class="source" id="source" type="text">
+                    </div>
+                    <div class="half-width">
+                    <label for="runoff">Сток</label>
+                    <input class="runoff" id="runnoff" type="text">
+                    </div>
+                </fieldset>
+                <div class="buttons">
+                    <input type="submit" value="Отправить">
+                    <input type="reset" value="Сбросить">
+                </div>
             </form>
         </header>
         <main>
